@@ -1,0 +1,21 @@
+<div class="base"></div>
+<div class="down"></div>
+<div class="parent">
+  <div class="thething"></div>
+  <div class="thething lightcolor"></div>
+  <div class="thething"></div>
+  <div class="thething lightcolor"></div>
+  <div class="thething"></div>
+  <div class="thething lightcolor"></div>
+  <div class="thething"></div>
+</div>
+<!-- this is so messy, but wanted to check grid display xD -->
+<style>
+  body {background:#6592CF;display:grid;height:100%;width:100%;align-items:center;justify-items:center;}
+  div {position:absolute;background:#060F55}
+  .base {height:140px;width:140px;top:110px;border-radius: 0 0 50% 50%;left:130px;}
+  .down {height:100px;width:20px;top:200px;left:190px;}
+  .parent {background:transparent;left:130px;top:50px;height:110px;width:140px;display:grid;grid: auto auto auto auto auto auto auto auto / auto auto auto auto auto auto auto;}
+  .lightcolor {background:#6592CF}
+  .thething {height:110px;width:20px;border-radius:10px;position:relative;}
+</style>
