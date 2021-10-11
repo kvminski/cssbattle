@@ -1,0 +1,53 @@
+<div class="square"></div>
+<div class="circle one"></div>
+<div class="circle two"></div>
+<div class="circle three"></div>
+<div class="circle four"></div>
+<div class="circle yellow"></div>
+
+<style>
+  body {
+    background: #243D83;
+    display: grid;
+	place-items: center;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #dd6b4d;
+    position: absolute;
+  }
+  .square {
+    background: #243D83;
+    width: 120px;
+    height: 120px;
+    transform: rotate(45deg);
+    z-index: 99;
+  }
+  .circle {
+    background: #6592CF;
+    border-radius: 50%;
+  }
+  .one {
+    left: 108px;
+    top: 58px;
+  }
+  .two {
+    left: 192px;
+    top: 58px;
+  }
+  .three {
+    left: 108px;
+    top: 142px;
+  }
+  .four {
+    left: 192px;
+    top: 142px;
+  }
+  .yellow {
+    background: #EEB850;
+    z-index: 100;
+    height: 60px;
+    width: 60px;
+  }
+</style>

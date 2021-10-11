@@ -1,0 +1,60 @@
+<div class="top"><div class="circle"></div></div>
+<div class="left"><div class="circle"></div></div>
+<div class="bottom"><div class="circle"></div></div>
+<div class="right"><div class="circle"></div></div>
+
+<style>
+  div {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+  }
+  body {
+    background: #191919;
+    display: grid;
+	place-items: center;
+  }
+  .top {
+    top: 0;
+    width: 40px;
+    height: 110px;
+    background: #FE5F55;
+  }
+  .left {
+    left: 0;
+    width: 160px;
+    height: 40px;
+    background: #A64942;
+  }
+  .bottom {
+    top: 190px;
+    width: 40px;
+    height: 110px;
+    background: #FE5F55;
+  }
+  .right {
+    left: 240px;
+    width: 160px;
+    height: 40px;
+    background: #A64942;
+  }
+  .circle {
+    border-radius: 50%;
+  }
+  .top .circle {
+    top: 90px;
+    background: #FE5F55;
+  }
+  .bottom .circle {
+    top: -20px;
+    background: #FE5F55;
+  }
+  .right .circle {
+    left: -20px;
+    background: #A64942;
+  }
+  .left .circle {
+    left: 140px;
+    background: #A64942;
+  }
+</style>

@@ -1,0 +1,48 @@
+<div class="square"></div>
+<div class="circle"></div>
+<div class="step one"></div>
+<div class="step two"></div>
+<div class="step three"></div>
+<div class="step four"></div>
+
+<style>
+  body {
+    display: grid;
+	place-items: center;
+    background: #191919;
+  }
+  
+  div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+  }
+  .square {
+    background: #4F77FF;
+    top: 125px;
+  }
+  .circle {
+    background: #4F77FF;
+    border-radius: 50%;
+    top: 75px;
+  }
+  .step {
+    background: #191919;
+    height: 20px;
+    top: 205px;
+    margin-left: 40px;
+  }
+  .step.two {
+    top: 181px;
+    margin-left: 80px;
+  }
+  .step.three {
+    top: 157px;
+    margin-left: 120px;
+  }
+  .step.four {
+    top: 133px;
+    margin-left: 160px;;
+  }
+</style>
